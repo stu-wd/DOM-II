@@ -105,4 +105,4 @@ navBar.forEach(link => {
     link.preventDefault();
 })
 
-//for push
+//for push to github
