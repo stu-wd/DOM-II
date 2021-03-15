@@ -89,7 +89,7 @@ window.addEventListener("scroll", () => {
     const scrollable = document.documentElement.scrollHeight - window.innerHeight;
     const scrolled = window.scrollY;
     if (Math.ceil(scrollable) === Math.ceil(scrolled)) {
-        alert("You've reached the bottom");
+        alert("You've reached the bottom = sorry this button sucks");
     };
 });
 
