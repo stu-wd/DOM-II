@@ -97,10 +97,12 @@ let scrollToTop = document.createElement(".btn");
 scrollToTop.textContent = "Top";
 scrollToTop.style.fontSize = "200px"
 document.querySelector("body").appendChild(scrollToTop);
-scrollToTop.style.position = "relative"
+ //  was trying to create a button that would generate when user arrived at bottom
 
 
 // Prevent Default
 navBar.forEach(link => {
     link.preventDefault();
 })
+
+//for push
